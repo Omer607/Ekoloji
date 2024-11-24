@@ -1,6 +1,7 @@
 @bot.command()
 async def yardım(ctx):
     await ctx.send("Çevre kirliliği tanımı için !ÇevreKirliliğiTanım, çevre kirliliğini önlemek için yapılabilecek uygulamaları öğrenmek için !KirlilikNasılÖnlenir, atıkların geri dönüşüm ayrışması hakkında bilgi almak için !GeriDönüşüm yazınız.")
+@bot.command()
 async def ÇevreKirliliğiTanım(ctx):
     await ctx.send('Çevre kirliliği, çevrenin doğal olmayan bir şekilde insan eliyle doğallığının bozulmasıdır. Bu ekosistemi bozma eylemleri; kirlenme şeklinde tabir edilmektedir.')
 
